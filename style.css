@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(61, 29, 150);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    background-color: aliceblue;
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.input-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.input-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.text {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.answerInput1 {
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 150px;
+    height: 20px;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.answerInput2 {
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 150px;
+    height: 20px;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.answerInput3 {
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 150px;
+    height: 20px;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.calcButton {
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.horario {
+    display: flex;
+    justify-content: center;
+}
